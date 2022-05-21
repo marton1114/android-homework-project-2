@@ -1,0 +1,76 @@
+body {
+    /* font-family: 'Amatic SC'; */
+    font-family: 'VT323';
+    font-size: 30px;
+    background-color: black;
+
+    background-image: url("./Assets/Pictures/Background.png");
+    color: white;
+    /* color: black; */
+
+    background-repeat: no-repeat;
+    background-position: center; /* bottom */
+    background-size: cover;
+}
+
+.cimsor {
+	background-color: rgba(0, 0, 0, 0.6);
+    height: 50px;
+    width: auto;
+    margin: 0px;
+    margin-bottom: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.uzenet {
+    /* background-color: rgba(255, 0, 70, 0.6); */
+    /* background-color: rgba(70, 255, 0, 0.6); */
+    /* background-color: rgba(0, 70, 255, 0.6); */
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 35px;
+}
+
+.gepvalasztasa {
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+
+.cimsor, .valasztek, .resetgomb, .gepvalasztasa, .uzenet {
+    text-align: center;
+}
+
+#userStone, #userPaper, #userScrissors {
+    image-rendering: pixelated;
+    width: 10%;
+    height: 10%;
+	border-radius: 100px;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+img {
+    width: 7em;
+    height: 7em;
+    image-rendering: pixelated;
+}
+
+
+button {
+    font-family: 'VT323';
+    font-size: 40px;
+    margin: 20px;
+    width: 200px;
+}
+
+.eredmeny {
+    margin-top: 40px;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+@media (-webkit-device-pixel-ratio: 1.25) {
+	* {
+		zoom: 0.93;
+	}
+}

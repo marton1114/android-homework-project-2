@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="hu">
+    <head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <title>Kő-papír-olló játék</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=VT323">
+    </head>
+
+    <body> 
+		<!-- Címsor -->
+		<h1 class="cimsor"> Kő-papír-olló </h1>
+		<hr>
+		<!-- Üzenet a felhasználónak -->
+		<div class="uzenet"> </div>
+
+		<!-- A gép választása -->
+		<div class="gepvalasztasa">
+			<img src="Assets/Pictures/waiting.gif" id="Ai">
+		</div>
+
+		<!-- Kő, papír és olló gombok -->
+		<form class="valasztek">
+			<input type="image" src="Assets/Pictures/ko.png" id="userStone">
+			<input type="image" src="Assets/Pictures/papir.png" id="userPaper">
+			<input type="image" src="Assets/Pictures/ollo.png" id="userScrissors">
+		</form>
+
+		<!-- Reset gomb -->
+		<div class="resetgomb"><button id="btn"> Újra </button></div>
+
+		<!-- Eredményjelző tábla -->
+		<div class="eredmeny">
+			<div id="win">Győzelmek:   0</div>
+			<div id="draw">Döntetlenek: 0</div>
+			<div id="lose">Vereségek:   0</div>
+		</div>
+		<script src="main.js"></script>
+    </body>
+</html>
